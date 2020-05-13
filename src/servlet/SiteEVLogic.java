@@ -1,8 +1,8 @@
-package model;
+package servlet;
 
+import model.SiteEV;
 
 public class SiteEVLogic {
-	
 	public void like(SiteEV site) {
 		int count = site.getLike();
 		site.setlike(count + 1);
@@ -12,4 +12,3 @@ public class SiteEVLogic {
 		site.setDislike(count + 1);
 	}
 }
-	
